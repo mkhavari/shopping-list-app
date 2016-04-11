@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Shopping List App</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link href='https://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="instructions">
+		<h1>Welcome to the Shopping List App!</h1>
+		<ul>
+			<li>Type in an item to add to your list and press 'Enter'</li>
+			<li>Click the checkmark to cross off purchased items</li>
+			<li>Click the 'X' to remove items from your list</li>
+		</ul>
+	</div>
+	<div class="list">
+		<div class="list-title"><h1>Shopping List</h1></div>
+		<div class="input"><input type="text" name="item" placeholder="Add Item Here"></div>
+		<ul class="list-items">
+			<li>
+				<span class="check">&#10004;</span>
+				<span>Item One</span>
+				<button>X</button>
+			</li>
+			<li>
+				<span class="check">&#10004;</span>
+				<span>Item Two</span>
+				<button>X</button>
+			</li>
+			<li>
+				<span class="purchased">Purchased Item</span>
+				<button>X</button>
+			</li>
+		</ul>
+		<button>Clear List</button>
+	</div>
+</body>
+</html>
