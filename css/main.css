@@ -1,6 +1,9 @@
-body {
-	background-image: url(../images/grocery.jpg);
-	background-size: 100%;
+html { 
+  background: url(../images/grocery.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 ul {
@@ -11,21 +14,6 @@ li {
 	margin-top: .3em;
 }
 
-.instructions {
-	float: left;
-	width: 35em;
-	margin-left: 10em;
-}
-
-.list {
-	float: right;
-	width: 35em;
-	margin-right: 10em;
-	padding-top: 1em;
-	padding-bottom: 1em;
-}
-
-.instructions,
 .list {
 	background-color: #3251A6;
 	color: #8BED6C;
@@ -36,6 +24,11 @@ li {
 	border-style: solid;
 	border-radius: .5em;
 	font-family: 'Gloria Hallelujah', cursive;
+	width: 35em;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
 button {
@@ -47,6 +40,10 @@ button {
 
 button:hover {
 	background-color: #98AEEB;
+}
+
+span:hover {
+	cursor: pointer;
 }
 
 .purchased {
@@ -63,6 +60,6 @@ button:hover {
 	color: #3251A6;
 }
 
-.check {
+span {
 	float: left;
 }
